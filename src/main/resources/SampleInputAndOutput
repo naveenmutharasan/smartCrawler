@@ -1,0 +1,114 @@
+Input:
+http://localhost:8080/crawl?uri=http://www.tnstc.in/&depth=2
+
+Output:
+
+{
+    "url": "http://www.tnstc.in/",
+    "totalCrawledPages": 10,
+    "internalLinks": {
+        "http://www.tnstc.in/SETCCashRmtWeb/": {
+            "protocol": "http",
+            "reachable": false,
+            "unreachableReason": "HTTP error fetching URL",
+            "internal": true,
+            "redirectedURI": "",
+            "uriDepth": 2,
+            "redirected": false,
+            "uri": "http://www.tnstc.in/SETCCashRmtWeb/"
+        },
+        "http://www.tnstc.in/TNSTCOnline/": {
+            "protocol": "http",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": true,
+            "redirectedURI": "",
+            "uriDepth": 0,
+            "redirected": false,
+            "uri": "http://www.tnstc.in/TNSTCOnline/"
+        },
+        "http://www.tnstc.in": {
+            "protocol": "http",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": true,
+            "redirectedURI": "",
+            "uriDepth": 1,
+            "redirected": false,
+            "uri": "http://www.tnstc.in"
+        },
+        "http://www.tnstc.in/SETCWeb/": {
+            "protocol": "http",
+            "reachable": false,
+            "unreachableReason": "Read timed out",
+            "internal": true,
+            "redirectedURI": "",
+            "uriDepth": 0,
+            "redirected": false,
+            "uri": "http://www.tnstc.in/SETCWeb/"
+        },
+        "http://www.tnstc.in/": {
+            "protocol": "http",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": true,
+            "redirectedURI": "",
+            "uriDepth": -1,
+            "redirected": false,
+            "uri": "http://www.tnstc.in/"
+        }
+    },
+    "externalLinks": {
+        "http://www.tdfc.in": {
+            "protocol": "http",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": false,
+            "redirectedURI": "",
+            "uriDepth": 2,
+            "redirected": false,
+            "uri": "http://www.tdfc.in"
+        },
+        "http://www.radiantinfo.com/": {
+            "protocol": "http",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": false,
+            "redirectedURI": "",
+            "uriDepth": 2,
+            "redirected": false,
+            "uri": "http://www.radiantinfo.com/"
+        },
+        "mailto:ENTER-ADDRESS": {
+            "protocol": "mailto",
+            "reachable": false,
+            "unreachableReason": "Only http & https protocols supported",
+            "internal": false,
+            "redirectedURI": "",
+            "uriDepth": 2,
+            "redirected": false,
+            "uri": "mailto:ENTER-ADDRESS"
+        },
+        "http://www.tdfc.in/": {
+            "protocol": "http",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": false,
+            "redirectedURI": "",
+            "uriDepth": 1,
+            "redirected": false,
+            "uri": "http://www.tdfc.in/"
+        },
+        "https://www.facebook.com/SETC.in": {
+            "protocol": "https",
+            "reachable": true,
+            "unreachableReason": "",
+            "internal": false,
+            "redirectedURI": "",
+            "uriDepth": 2,
+            "redirected": false,
+            "uri": "https://www.facebook.com/SETC.in"
+        }
+    },
+    "crawlDepth": 2
+}
