@@ -16,6 +16,10 @@
 	MAVEN / GRADLE
 	SPRING BOOT STS
 	Web browser / Post man app to test the API
+	
+## Git path of the solution 
+
+   [SmartCrawler](https://github.com/naveenmutharasan/smartCrawler.git )
 
 ## HOW TO BUILD AND RUN THE SMART CRAWLER LOCALLY
 
